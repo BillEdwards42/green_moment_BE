@@ -60,7 +60,7 @@ def sanitize_name(name):
     # Remove content within parentheses first
     name_without_parentheses = re.sub(r'\(.*\)', '', name)
     # Then sanitize invalid characters
-    return re.sub(r'[\\/*?:"<>|]', '_', name_without_parentheses).strip()
+    return re.sub(r'[\\/*?:"<>|]', '_', name_without_parentheses.lower()).strip()
 
 def infer_region_from_name(unit_name):
     region_keywords = {
