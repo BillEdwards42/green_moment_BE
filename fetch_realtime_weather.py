@@ -44,11 +44,11 @@ WEATHER_LOG_FILE = BASE_DIR / "10min_weather_log.csv"
 # Stations relevant to power generation, grouped by region
 # 與發電相關的氣象站，按區域分組
 STATIONS_BY_REGION = {
-    "North": ["臺北", "新北", "基隆", "新竹", "新屋", "鞍部"],
-    "Central": ["臺中", "後龍", "古坑", "田中", "日月潭", "阿里山", "玉山"],
-    "South": ["嘉義", "臺南", "永康", "高雄", "恆春"],
-    "East": ["宜蘭", "花蓮", "成功", "臺東", "大武"],
-    "Island": ["澎湖", "金門", "馬祖", "蘭嶼", "東吉島"]
+    "north": ["臺北", "新北", "基隆", "新竹", "新屋", "鞍部"],
+    "central": ["臺中", "後龍", "古坑", "田中", "日月潭", "阿里山", "玉山"],
+    "south": ["嘉義", "臺南", "永康", "高雄", "恆春"],
+    "east": ["宜蘭", "花蓮", "成功", "臺東", "大武"],
+    "island": ["澎湖", "金門", "馬祖", "蘭嶼", "東吉島"]
 }
 
 # Fields to extract and average
